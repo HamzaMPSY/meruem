@@ -1,0 +1,4 @@
+interface:
+  display_name: "Prompt Preflight"
+  short_description: "Critique and improve prompts before execution."
+  default_prompt: "Refine this prompt for clarity, constraints, output format, and acceptance criteria."

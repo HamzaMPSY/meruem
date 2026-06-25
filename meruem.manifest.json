@@ -1,0 +1,34 @@
+{
+  "name": "meruem",
+  "version": "0.1.0",
+  "description": "Bundled workflow pack for Codex-style coding agents.",
+  "skills": [
+    "meruem",
+    "aura",
+    "codebase-explainer",
+    "graphify",
+    "karpathy-guidelines",
+    "impeccable",
+    "frontend-design",
+    "design-taste-frontend",
+    "emil-design-eng",
+    "deep-research",
+    "prompt-preflight"
+  ],
+  "supportFiles": [
+    "AGENTS.md",
+    "docs/",
+    ".tickets/templates/"
+  ],
+  "install": {
+    "script": "scripts/install.sh",
+    "defaultCodexHome": "~/.codex",
+    "skillsTarget": "~/.codex/skills",
+    "supportTarget": "~/.codex/meruem"
+  },
+  "commands": {
+    "install": "sh scripts/install.sh",
+    "doctor": "sh scripts/doctor.sh",
+    "uninstall": "sh scripts/uninstall.sh"
+  }
+}

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Codebase Explainer"
+  short_description: "Explain codebases in plain language"
+  default_prompt: "Use $codebase-explainer to explain this repository in plain language and produce presentation-ready output."

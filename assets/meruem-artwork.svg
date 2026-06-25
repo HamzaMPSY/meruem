@@ -1,0 +1,121 @@
+<svg width="1600" height="900" viewBox="0 0 1600 900" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Meruem workflow artwork</title>
+  <desc id="desc">A technical editorial illustration showing Meruem as a disciplined AI coding workflow made of tickets, decision gates, graph knowledge, design craft, and verification loops.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1600" y2="900" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#07110F"/>
+      <stop offset="0.48" stop-color="#0B1716"/>
+      <stop offset="1" stop-color="#101314"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="365" y1="148" x2="1235" y2="748" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#12211F" stop-opacity="0.96"/>
+      <stop offset="1" stop-color="#10181A" stop-opacity="0.92"/>
+    </linearGradient>
+    <linearGradient id="cyan" x1="414" y1="206" x2="1184" y2="696" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#B8FFF1"/>
+      <stop offset="0.48" stop-color="#46E6D0"/>
+      <stop offset="1" stop-color="#13A89E"/>
+    </linearGradient>
+    <linearGradient id="emerald" x1="560" y1="585" x2="1040" y2="256" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#CBFFE6"/>
+      <stop offset="1" stop-color="#39D982"/>
+    </linearGradient>
+    <radialGradient id="halo" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(800 452) rotate(90) scale(396 666)">
+      <stop stop-color="#64FFE0" stop-opacity="0.28"/>
+      <stop offset="0.56" stop-color="#39D982" stop-opacity="0.09"/>
+      <stop offset="1" stop-color="#39D982" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="softGlow" x="250" y="40" width="1100" height="820" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="14"/>
+    </filter>
+    <filter id="nodeGlow" x="-20" y="-20" width="80" height="80" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="6"/>
+    </filter>
+    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M 48 0 L 0 0 0 48" stroke="#D7FFF5" stroke-opacity="0.045" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <rect width="1600" height="900" fill="url(#grid)"/>
+  <rect width="1600" height="900" fill="url(#halo)"/>
+
+  <g opacity="0.58">
+    <path d="M128 176H292M1290 176H1472M98 728H306M1306 728H1502" stroke="#D7FFF5" stroke-opacity="0.17" stroke-width="2"/>
+    <path d="M184 244H252M1348 244H1416M162 654H246M1360 654H1444" stroke="#3BE1C8" stroke-opacity="0.32" stroke-width="2"/>
+  </g>
+
+  <g filter="url(#softGlow)" opacity="0.65">
+    <path d="M511 260L800 94L1089 260V592L800 758L511 592V260Z" stroke="#49F2DB" stroke-width="8"/>
+    <path d="M602 310L800 196L998 310V538L800 652L602 538V310Z" stroke="#64FFB1" stroke-width="5"/>
+  </g>
+
+  <path d="M511 260L800 94L1089 260V592L800 758L511 592V260Z" fill="url(#panel)" stroke="#D7FFF5" stroke-opacity="0.18" stroke-width="2"/>
+  <path d="M602 310L800 196L998 310V538L800 652L602 538V310Z" fill="#081210" fill-opacity="0.62" stroke="#4AF1DA" stroke-opacity="0.44" stroke-width="2"/>
+
+  <path d="M800 196V652" stroke="#D7FFF5" stroke-opacity="0.12" stroke-width="2"/>
+  <path d="M602 310L998 538M998 310L602 538" stroke="#D7FFF5" stroke-opacity="0.08" stroke-width="2"/>
+
+  <g stroke-linecap="round" stroke-linejoin="round">
+    <path d="M800 242V344" stroke="url(#cyan)" stroke-width="8"/>
+    <path d="M800 344L704 400" stroke="url(#cyan)" stroke-width="8"/>
+    <path d="M800 344L896 400" stroke="url(#cyan)" stroke-width="8"/>
+    <path d="M704 400V510L800 566L896 510V400" stroke="url(#emerald)" stroke-width="8"/>
+    <path d="M704 510L612 564M896 510L988 564" stroke="#47E6D1" stroke-opacity="0.82" stroke-width="6"/>
+    <path d="M800 566V650" stroke="#67FFC1" stroke-opacity="0.88" stroke-width="6"/>
+  </g>
+
+  <g>
+    <g filter="url(#nodeGlow)" opacity="0.9">
+      <circle cx="800" cy="242" r="18" fill="#74FFE8"/>
+      <circle cx="800" cy="344" r="20" fill="#74FFE8"/>
+      <circle cx="704" cy="400" r="17" fill="#65FFC0"/>
+      <circle cx="896" cy="400" r="17" fill="#65FFC0"/>
+      <circle cx="704" cy="510" r="17" fill="#65FFC0"/>
+      <circle cx="896" cy="510" r="17" fill="#65FFC0"/>
+      <circle cx="800" cy="566" r="21" fill="#74FFE8"/>
+    </g>
+    <circle cx="800" cy="242" r="15" fill="#061210" stroke="#D7FFF5" stroke-width="3"/>
+    <circle cx="800" cy="344" r="17" fill="#061210" stroke="#D7FFF5" stroke-width="3"/>
+    <circle cx="704" cy="400" r="14" fill="#061210" stroke="#8CFFD2" stroke-width="3"/>
+    <circle cx="896" cy="400" r="14" fill="#061210" stroke="#8CFFD2" stroke-width="3"/>
+    <circle cx="704" cy="510" r="14" fill="#061210" stroke="#8CFFD2" stroke-width="3"/>
+    <circle cx="896" cy="510" r="14" fill="#061210" stroke="#8CFFD2" stroke-width="3"/>
+    <circle cx="800" cy="566" r="18" fill="#061210" stroke="#D7FFF5" stroke-width="3"/>
+  </g>
+
+  <g opacity="0.93">
+    <rect x="420" y="322" width="156" height="88" rx="12" fill="#101D1C" stroke="#D7FFF5" stroke-opacity="0.18"/>
+    <path d="M444 350H552M444 376H516" stroke="#D7FFF5" stroke-opacity="0.5" stroke-width="6" stroke-linecap="round"/>
+    <circle cx="544" cy="376" r="8" fill="#4AF1DA"/>
+
+    <rect x="1024" y="322" width="156" height="88" rx="12" fill="#101D1C" stroke="#D7FFF5" stroke-opacity="0.18"/>
+    <path d="M1048 350H1156M1048 376H1120" stroke="#D7FFF5" stroke-opacity="0.5" stroke-width="6" stroke-linecap="round"/>
+    <circle cx="1148" cy="376" r="8" fill="#67FFC1"/>
+
+    <rect x="430" y="500" width="136" height="98" rx="12" fill="#101D1C" stroke="#D7FFF5" stroke-opacity="0.18"/>
+    <path d="M456 532L486 562L540 518" stroke="#67FFC1" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M456 580H540" stroke="#D7FFF5" stroke-opacity="0.42" stroke-width="6" stroke-linecap="round"/>
+
+    <rect x="1034" y="500" width="136" height="98" rx="12" fill="#101D1C" stroke="#D7FFF5" stroke-opacity="0.18"/>
+    <path d="M1062 548C1076 520 1128 520 1142 548C1128 576 1076 576 1062 548Z" stroke="#4AF1DA" stroke-width="6"/>
+    <circle cx="1102" cy="548" r="10" fill="#D7FFF5"/>
+  </g>
+
+  <g opacity="0.55">
+    <path d="M576 366C536 370 508 386 498 426C488 466 515 487 556 494" stroke="#4AF1DA" stroke-width="3" stroke-linecap="round" stroke-dasharray="8 14"/>
+    <path d="M1024 366C1064 370 1092 386 1102 426C1112 466 1085 487 1044 494" stroke="#67FFC1" stroke-width="3" stroke-linecap="round" stroke-dasharray="8 14"/>
+  </g>
+
+  <g>
+    <text x="800" y="770" text-anchor="middle" fill="#F2FFFB" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="84" font-weight="800" letter-spacing="10">MERUEM</text>
+    <path d="M604 800H996" stroke="#4AF1DA" stroke-opacity="0.72" stroke-width="3" stroke-linecap="round"/>
+  </g>
+
+  <g opacity="0.88">
+    <circle cx="364" cy="220" r="5" fill="#4AF1DA"/>
+    <circle cx="1236" cy="220" r="5" fill="#67FFC1"/>
+    <circle cx="350" cy="672" r="5" fill="#67FFC1"/>
+    <circle cx="1250" cy="672" r="5" fill="#4AF1DA"/>
+  </g>
+</svg>
